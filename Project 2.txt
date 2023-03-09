@@ -1,0 +1,74 @@
+Project #2
+
+Due Dates:  Monday, March 8 at 11:59pm 
+
+Submit:    eLearning
+
+Late Policy:  -10 points per hour late
+
+Instructions: This is an individual assignment.  Answers should be your own work.
+              You are expected to code this yourself from scratch by thinking 
+              through the requirements and design, then writing the code.  However,
+              you may use code from the author's BinarySearchTree.
+
+
+Introduction:
+
+   In this project you will create a binary search tree.
+
+
+Description:
+
+   Create a class called MySearchTree.  MySearchTree will implement a binary 
+   search tree.  MySearchTree will be a generic class storing a value of the
+   generic type.  
+
+   It should have the following methods.  The methods should 
+   all operate on the object making the call (none are static).  
+
+   All of the methods should use recursion (except for main).
+
+   10 points
+   a) add
+       Adds a node to the tree containing the passed value.  
+
+   10 points
+   b) find
+        Returns true if the value passed is in the tree.
+
+   10 points
+   c) leafCount
+        Returns the count of all of the leaves in the tree.
+
+   10 points
+   d) parentCount
+        Returns the count of all of the parents in the tree.
+
+   10 points
+   e) height
+        Returns the height of the tree.
+
+   10 points
+   f) isPerfect
+        Returns true if the tree is a perfect tree.
+        (A perfect tree is filled at every level).
+
+   10 points
+   g) ancestors
+        Returns the ancestor values of the passed value.
+
+   10 points
+   h) inOrderPrint
+        Prints node values using an inorder traversal.
+   
+   10 points
+   i) preOrderPrint
+        Prints node values using a preorder traversal.
+
+   10 points
+   j) Main
+        Demonstrates all of the above methods.
+
+
+Submit to eLearning:
+   MySearchTree.java
